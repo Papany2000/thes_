@@ -1,0 +1,53 @@
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-bg: #102e24;
+  --color-active: #ffc499;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: var(--color-bg);
+  padding: 2rem 0;
+  text-align: center;
+}
+  header > a {
+      color: white;
+      text-decoration: none;
+      padding: 0 1rem;
+  }
+  header > a:hover {
+      text-decoration: underline;
+  }
+
+  .active {
+    color: var(--color-active);
+    cursor: default;
+  }
+
+  .goods{
+    background-color: rgb(202, 216, 182);
+  }
+
+  h2{
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .home{
+    background: rgb(202, 216, 182);
+  }
+
+
+
+
+
+
