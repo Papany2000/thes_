@@ -32,6 +32,7 @@ function App() {
   const value = { auth, setAuth};
   return (
     <>
+    <p>Project</p>
       <UserContext.Provider value={value}>
         <Navigation />
         <Routes>
